@@ -1,16 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.christmasadventcalenderzmolik.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#writeData" prefHeight="610.0" prefWidth="865.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.christmasadventcalenderzmolik.HelloController">
+   <children>
+      <Rectangle fx:id="presentNumBg" arcHeight="5.0" arcWidth="5.0" fill="#bababa" height="200.0" layoutX="17.0" layoutY="149.0" stroke="#bababa" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="28.0" layoutY="158.0" text="Máš nárok na ">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="305.0" text="otevření dárků">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="presentNum" alignment="CENTER" contentDisplay="CENTER" layoutX="17.0" layoutY="216.0" prefHeight="67.0" prefWidth="200.0" text="0" AnchorPane.leftAnchor="17.0">
+         <font>
+            <Font name="Berlin Sans FB" size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="14.0" text="Adventní kalendář" underline="true">
+         <font>
+            <Font name="Berlin Sans FB" size="50.0" />
+         </font>
+      </Label>
+      <QuadCurve controlX="-3.0" controlY="-43.0" endX="130.0" endY="-27.0" fill="WHITESMOKE" layoutX="94.0" layoutY="94.0" startX="-94.0" startY="-94.0" stroke="BLACK" strokeType="INSIDE" />
+      <QuadCurve controlX="35.0" controlY="-99.0" endX="138.0" endY="-148.0" fill="WHITESMOKE" layoutX="727.0" layoutY="148.0" startX="-111.0" startY="-82.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle layoutX="49.0" layoutY="24.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle layoutX="117.0" layoutY="47.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle layoutX="805.0" layoutY="24.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle layoutX="725.0" layoutY="47.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="-68.0" endY="-136.0" layoutX="117.0" layoutY="160.0" startX="-68.0" startY="-93.0" />
+      <Line endY="-115.0" layoutX="117.0" layoutY="161.0" startY="-72.0" />
+      <Line endX="40.0" endY="-130.0" layoutX="685.0" layoutY="177.0" startX="40.0" startY="-87.0" />
+      <Line endX="80.0" endY="-281.0" layoutX="725.0" layoutY="305.0" startX="80.0" startY="-239.0" />
+      <Ellipse fx:id="light1" fill="DODGERBLUE" layoutX="49.0" layoutY="69.0" radiusX="5.0" radiusY="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fx:id="light2" fill="DODGERBLUE" layoutX="117.0" layoutY="90.0" radiusX="5.0" radiusY="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fx:id="light3" fill="DODGERBLUE" layoutX="725.0" layoutY="91.0" radiusX="5.0" radiusY="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fx:id="light4" fill="DODGERBLUE" layoutX="805.0" layoutY="69.0" radiusX="5.0" radiusY="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fda42" height="84.0" layoutX="18.0" layoutY="362.0" stroke="#d73939" strokeType="INSIDE" strokeWidth="10.0" width="200.0" />
+      <Label fx:id="button" alignment="CENTER" layoutX="18.0" layoutY="362.0" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" onMousePressed="#mousePressed" prefHeight="84.0" prefWidth="200.0" text="Otevřít Dárek">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9a9a9a" height="444.0" layoutX="246.0" layoutY="140.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="599.0" AnchorPane.bottomAnchor="26.0" AnchorPane.rightAnchor="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bababa" height="122.0" layoutX="18.0" layoutY="459.0" stroke="#bababa" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Label alignment="CENTER" layoutX="18.0" layoutY="459.0" prefHeight="44.0" prefWidth="200.0" text="Dnešní datum:">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" alignment="CENTER" layoutX="18.0" layoutY="503.0" prefHeight="75.0" prefWidth="200.0" text="24.12.2029">
+         <font>
+            <Font name="Berlin Sans FB" size="40.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bababa" height="75.0" layoutX="246.0" layoutY="140.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="599.0" />
+      <Label fx:id="presentName" alignment="CENTER" layoutX="246.0" layoutY="140.0" prefHeight="75.0" prefWidth="599.0">
+         <font>
+            <Font size="40.0" />
+         </font></Label>
+      <Label fx:id="presentDesc" alignment="CENTER" layoutX="246.0" layoutY="213.0" prefHeight="371.0" prefWidth="599.0" />
+   </children>
+</AnchorPane>

@@ -4,21 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ebf8810-a3c8-442c-8eb7-6bf8d78d4e84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/Gifts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/christmasadventcalenderzmolik/hello-view.fxml" afterDir="false" />
+    <list default="true" id="6ebf8810-a3c8-442c-8eb7-6bf8d78d4e84" name="Changes" comment="first steps">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ChristmasAdventCalenderZmolik_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lastDayOn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/Present.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/Gifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/Gifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/christmasadventcalenderzmolik/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/christmasadventcalenderzmolik/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,18 +39,52 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2YagjZcT4CBKzShWCrtqXU1GBlg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/42077/Documents/GitHub/2324alg1thursdaystudentscodes-Anonymous0n3",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.christmasadventcalenderzmolik.HelloApplication" />
+      <module name="ChristmasAdventCalenderZmolik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.christmasadventcalenderzmolik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,8 +93,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700769242649</updated>
-      <workItem from="1700769243784" duration="317000" />
+      <workItem from="1700769243784" duration="1008000" />
+      <workItem from="1700899034586" duration="1152000" />
+      <workItem from="1700902807998" duration="708000" />
+      <workItem from="1700903526105" duration="72000" />
+      <workItem from="1700903606256" duration="713000" />
+      <workItem from="1700904330971" duration="3255000" />
+      <workItem from="1700907599295" duration="116000" />
+      <workItem from="1700907723500" duration="229000" />
+      <workItem from="1700907962390" duration="1254000" />
+      <workItem from="1700909227299" duration="8294000" />
+      <workItem from="1700917638134" duration="7466000" />
+      <workItem from="1701091464551" duration="2147000" />
+      <workItem from="1701515179418" duration="1706000" />
     </task>
+    <task id="LOCAL-00001" summary="first steps">
+      <created>1700769606852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700769606852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +130,30 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="first steps" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/HelloController.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/christmasadventcalenderzmolik/HelloController.java</url>
+          <line>205</line>
+          <properties class="com.example.christmasadventcalenderzmolik.HelloController" method="readData">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
